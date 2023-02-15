@@ -21,7 +21,7 @@
         <link rel="next" href="../install-instructions/">
       
       <link rel="icon" href="../assets/ms_icon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.9">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.12">
     
     
       
@@ -278,6 +278,22 @@
     <li class="md-tabs__item">
       <a href="../en/rules/" class="md-tabs__link">
         Reference
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../learn/learn-video-series/" class="md-tabs__link">
+        Learn
       </a>
     </li>
   
@@ -573,8 +589,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#should-i-continue-to-use-azure-advisor-security-center-or-azure-policy" class="md-nav__link">
-    Should I continue to use Azure Advisor, Security Center, or Azure Policy?
+  <a href="#should-i-continue-to-use-azure-advisor-defender-for-cloud-or-azure-policy" class="md-nav__link">
+    Should I continue to use Azure Advisor, Defender for Cloud, or Azure Policy?
   </a>
   
 </li>
@@ -1450,8 +1466,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../en/asb-v3/" class="md-nav__link">
-        Azure Security Benchmark
+      <a href="../en/mcsb-v1/" class="md-nav__link">
+        Microsoft Cloud Security Benchmark
       </a>
     </li>
   
@@ -7309,6 +7325,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
@@ -7499,6 +7517,20 @@
     <li class="md-nav__item">
       <a href="../en/baselines/Azure.GA_2022_12/" class="md-nav__link">
         Azure.GA_2022_12
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../en/baselines/Azure.MCSB.v1/" class="md-nav__link">
+        Azure.MCSB.v1
       </a>
     </li>
   
@@ -7732,6 +7764,59 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Learn
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Learn
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../learn/learn-video-series/" class="md-nav__link">
+        Learn PSRule for Azure series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -7829,8 +7914,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#should-i-continue-to-use-azure-advisor-security-center-or-azure-policy" class="md-nav__link">
-    Should I continue to use Azure Advisor, Security Center, or Azure Policy?
+  <a href="#should-i-continue-to-use-azure-advisor-defender-for-cloud-or-azure-policy" class="md-nav__link">
+    Should I continue to use Azure Advisor, Defender for Cloud, or Azure Policy?
   </a>
   
 </li>
@@ -7906,6 +7991,8 @@ For general FAQ see <a href="https://microsoft.github.io/PSRule/v2/faq/">PSRule 
 <li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-is-psrule-different-to-pester">How is PSRule different to Pester?</a></li>
 <li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-do-i-configure-psrule">How do I configure PSRule?</a></li>
 <li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-do-i-ignore-a-rule">How do I ignore a rule?</a></li>
+<li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-do-exclude-or-ignore-files-from-being-processed">How do exclude or ignore files from being processed?</a></li>
+<li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-do-i-disable-or-suppress-the-not-processed-warning">How do I disable or suppress the not processed warning?</a></li>
 <li><a href="https://microsoft.github.io/PSRule/v2/faq/#how-do-i-layer-on-custom-rules-on-top-of-an-existing-module">How do I layer on custom rules on top of an existing module?</a></li>
 </ul>
 <div class="admonition note">
@@ -7995,12 +8082,12 @@ the default built-in <em>Reader</em> role to a subscription is required for:</p>
 <h2 id="what-permissions-do-i-need-to-analyze-exported-rule-data">What permissions do I need to analyze exported rule data?<a class="headerlink" href="#what-permissions-do-i-need-to-analyze-exported-rule-data" title="Permanent link">#</a></h2>
 <p>When exporting data for <em>in-flight</em> analysis,
 no access to Azure is required after data has been exported to JSON.</p>
-<h2 id="should-i-continue-to-use-azure-advisor-security-center-or-azure-policy">Should I continue to use Azure Advisor, Security Center, or Azure Policy?<a class="headerlink" href="#should-i-continue-to-use-azure-advisor-security-center-or-azure-policy" title="Permanent link">#</a></h2>
+<h2 id="should-i-continue-to-use-azure-advisor-defender-for-cloud-or-azure-policy">Should I continue to use Azure Advisor, Defender for Cloud, or Azure Policy?<a class="headerlink" href="#should-i-continue-to-use-azure-advisor-defender-for-cloud-or-azure-policy" title="Permanent link">#</a></h2>
 <p>Absolutely.
-PSRule for Azure does not replace Azure Advisor, Security Center, or Azure Policy.</p>
-<p>PSRule complements Azure Advisor, Security Center, and Azure Policy features by:</p>
+PSRule for Azure does not replace Azure Advisor, Microsoft Defender for Cloud, or Azure Policy.</p>
+<p>PSRule complements Azure Advisor, Microsoft Defender for Cloud, and Azure Policy features by:</p>
 <ul>
-<li>Recommending turning on and using features of Azure Advisor, Azure Security Center, or Azure Policy.</li>
+<li>Recommending turning on and using features of Azure Advisor, Microsoft Defender for Cloud, or Azure Policy.</li>
 <li>Providing offline analysis in split environments where the analyst has no access to Azure subscriptions.
   Rule data for analysis can be exported out to a JSON file.</li>
 <li>Providing the ability to analyze resources in Azure Resource Manager templates before deployment.
@@ -8064,7 +8151,7 @@ Collection of telemetry in PowerShell and how to opt-out is explained in <a href
   <small>
     
       Last update:
-      2022-10-17
+      2023-02-12
     
   </small>
 </div>
@@ -8160,6 +8247,8 @@ Collection of telemetry in PowerShell and how to opt-out is explained in <a href
   
     
     
+    
+    
       
       
     
@@ -8181,7 +8270,7 @@ Collection of telemetry in PowerShell and how to opt-out is explained in <a href
     <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.indexes", {"navigation.sections": {"level": 1}}, "navigation.tabs", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      <script src="../assets/javascripts/bundle.4b2c34cd.min.js"></script>
       
     
   </body>
